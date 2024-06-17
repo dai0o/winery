@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/backgrounddesign.png'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Ensures the background image stays fixed as the content scrolls */
+    background-position: center; /* Centers the background image */
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+header .container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header .header-logo {
+    width: 130px; /* Adjust width to maintain square shape */
+    height: 130px; /* Adjust height to maintain square shape */
+    margin-right: 20px; /* Adjust spacing */
+    object-fit: contain; /* Ensures the image covers the entire space */
+    border-radius: 0; /* Ensure no border radius */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid #6D5F59;
+    padding-bottom: 10px;
+    color: #6D5F59;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-item .price {
+    float: right;
+    color: #6D5F59;
+    font-weight: bold;
+}
+
+.menu-item p {
+    margin: 5px 0 0 0;
+    color: #555;
+}
+
